@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "document_rags",
+  "info": {
+    "singularName": "document-rag",
+    "pluralName": "document-rags",
+    "displayName": "document_rag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title_rag": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "file_rag": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "category_rag": {
+      "type": "enumeration",
+      "enum": [
+        "Finance",
+        "Legal",
+        "HR",
+        "Compliance",
+        "Technical",
+        "Other"
+      ]
+    },
+    "status_rag": {
+      "type": "boolean",
+      "default": true
+    },
+    "description_rag": {
+      "type": "blocks"
+    }
+  }
+}
