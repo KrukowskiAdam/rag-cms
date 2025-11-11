@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_items",
+  "info": {
+    "displayName": "items"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

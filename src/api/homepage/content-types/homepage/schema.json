@@ -14,7 +14,13 @@
     "sections": {
       "type": "dynamiczone",
       "components": [
-        "sections.hero-slide"
+        "sections.hero-slide",
+        "sections.stats",
+        "sections.teaser",
+        "sections.text-block",
+        "sections.items",
+        "sections.cta",
+        "sections.footer"
       ]
     }
   }

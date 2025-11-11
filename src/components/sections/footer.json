@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "companyName": {
+      "type": "text"
+    },
+    "copyright": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

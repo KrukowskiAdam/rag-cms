@@ -525,7 +525,17 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    sections: Schema.Attribute.DynamicZone<['sections.hero-slide']>;
+    sections: Schema.Attribute.DynamicZone<
+      [
+        'sections.hero-slide',
+        'sections.stats',
+        'sections.teaser',
+        'sections.text-block',
+        'sections.items',
+        'sections.cta',
+        'sections.footer',
+      ]
+    >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
